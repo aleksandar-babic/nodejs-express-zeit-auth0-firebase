@@ -1,6 +1,4 @@
-const express = require('express')
-
-const app = express()
+const app = require('../app')
 
 app.get('*', (req, res) => {
   res.write('<h1><marquee direction=left>Hello from Express path `/about` on Now 2.0!</marquee></h1>')
