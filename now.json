@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "nodejs-express-zeit-auth0-firebase",
+  "builds": [
+    {
+      "src": "**/*.js",
+      "use": "@now/node"
+    }
+  ]
+}
